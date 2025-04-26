@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
-  res.send("Hello myself RITIK SHARMA, This is my nodejs application I am from pilani RAJASTHAN");
+  res.send("Hello myself RITIK SHARMA , This is node application. Thanks for visiting my site");
 });
 
 app.listen(PORT, () => {
