@@ -2,13 +2,13 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'mohitsingh0001/node-docker-app'
+        IMAGE_NAME = 'your-dockerhub-username/node-docker-app'
     }
 
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/mohitsingh0008/Node_JS-Application'
+                git branch: 'main', url: 'https://github.com/mohitsingh0008/Node_JS-Application'
             }
         }
 
